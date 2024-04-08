@@ -1,0 +1,41 @@
+body{
+    width: 80%;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
+}
+h1{
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    margin: 0px;
+}
+
+#content{
+    display: inline-block;
+    border: 1px darkblue solid;    
+}
+
+#doanvan{
+    width: 50%;
+    float: left;
+    text-align: justify;
+    padding: 10px;
+}
+
+#tintuc{
+    width: 50%;
+    border-left:1px gray solid ;
+    float: right;
+    padding: 10px;
+    text-align: justify;
+}
+
+h3{
+    width: 100%;
+    background-color: darkblue;
+    text-align: center;
+    color: white;
+    margin: -4px 0px 0px 0px;
+}

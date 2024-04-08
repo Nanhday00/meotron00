@@ -1,0 +1,20 @@
+#Bang2 table,#Bang2 tr,#Bang2 td,#Bang2 th{
+    border-collapse:separate;
+    border:1px inset #3300FF;
+    font-family:"Courier New", Courier, monospace;
+    font-size:12px;
+}
+
+#Bang2 table tr th{
+    background:#660066;
+    color:#FFFFFF;
+    height:50px;
+    font-size:15px;
+}
+
+#Bang2 th, .canhgiua{
+    text-align:center;
+    background:#660066;
+    color:#FFFFFF;
+}
+    

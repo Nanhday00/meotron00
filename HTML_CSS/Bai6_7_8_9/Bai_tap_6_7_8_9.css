@@ -1,0 +1,53 @@
+#menu{
+    background-color: blue;
+    display: inline-block; 
+    width: 100%;
+    color: white;
+}
+
+#menu ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menu ul li{
+    float: left;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#menu ul li:hover{
+    background-color: red;
+}
+
+#menu #show1{
+    position: absolute;
+    background-color: red;
+    top: 46px;
+    left: 8px;
+}
+
+#menu li ul{
+    display: none;
+}
+
+#menu li:hover ul{
+    display: block;
+}
+
+#menu ul li ul li:hover{
+    background-color: yellow;
+    color: black;
+}
+
+#menu ul li ul:not(#show1){
+    background-color: red;
+    position: absolute;
+    top:46px;
+    left: 8px;
+}
+
+#menu ul li ul:not(#show1) li{
+    float: none;
+}

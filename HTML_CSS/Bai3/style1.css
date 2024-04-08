@@ -1,0 +1,16 @@
+#B1 h2{
+    background:#FF9966;
+    font-family:"Courier New", Courier, monospace;
+    font-size:16px;
+    border-bottom:solid;
+    width:500px;
+}
+#Bang1 table ,#Bang1 tr,#Bang1 td,#Bang1 th{
+    border-collapse:collapse;
+    border-color:#CC0000;
+    border:1px solid #990000;
+}
+#Bang1 th{
+    background:#FF6600;
+    color:#FFFFFF;
+}
